@@ -1,0 +1,43 @@
+
+.proyect-container {
+    @extend .col-12;
+    @extend .col-md-6;
+    @extend .col-lg-4;
+}
+
+.proyect-card {
+    @extend .card;
+    @extend .h-100;
+    @extend .position-relative;
+    background-color: $surface-variant-color;
+    color: $on-surface-variant-color;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+
+
+    &:hover {
+        transform: translateY(-12px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        border-color: $primary-color;
+
+        img {
+            transform: scale(1.1);
+            filter: brightness(0.7);
+        }
+
+        h5 {
+            color: $primary-color;
+        }
+    }
+
+    h5 {
+        @extend .fw-bold;
+        color: $on-surface-color;
+    }
+
+    img {
+        transition: all 0.4s ease;
+        height: 225px;
+    }
+}

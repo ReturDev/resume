@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Mateo | Android & Backend Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar-container" data-bs-offset="80">
+    <header>
+        <nav class="navbar-container">
+            <div class="container">
+                <a class="navbar-brand" href="#">Sergio Mateo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-links-container" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#info-section">Info</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backend-proyects-section">Proyectos Backend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#android-proyects-section">Proyectos Android</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience-section">Experiencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education-section">Formación</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="container">
+        <section id="info-section">
+            <div class="info-container">
+                <h1>Sergio Mateo Moreno</h1>
+                <h2>Android & Backend Developer</h2>
+                <div class="tech-stack">
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=java" alt="Java">
+                        <span>Java</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=kotlin" alt="Kotlin">
+                        <span>Kotlin</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=spring" alt="Spring Boot">
+                        <span>Spring Boot</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="./media/icons/android-logo.svg" alt="Android">
+                        <span>Android</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL">
+                        <span>MySQL</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=firebase" alt="Firebase">
+                        <span>Firebase</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=docker" alt="Docker">
+                        <span>Docker</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=html" alt="HTML5">
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=css" alt="CSS3">
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=postman" alt="Postman">
+                        <span>Postman</span>
+                    </div>
+                    <div class="tech-badge">
+                        <img src="https://skillicons.dev/icons?i=git" alt="Git">
+                        <span>Git</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="skills-container">
+                    <div class="positive-skills">
+                        <div class="skill-header">
+                            <img class="skill-icon" src="./media/icons/positive-circle-icon.svg">
+                            <h4>Lo que si tengo</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Años de experiencia autodidacta</li>
+                                <li>Capacidad de autoaprendizaje</li>
+                                <li>Cultura de esfuerzo</li>
+                                <li>Gestión de la presión</li>
+                                <li>Autonomía y resolución</li>
+                                <li>Pensamiento lógico y analítico</li>
+                                <li>Tolerancia a la frustración</li>
+                                <li>Atención al detalle</li>
+                                <li>Compromiso profesional</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-container">
+                    <div class="negative-skills">
+                        <div class="skill-header">
+                            <img class="skill-icon" src="./media/icons/negative-circle-icon.svg">
+                            <h4>Lo que no tengo</h4>
+                        </div>
+                        <div class="card-body">
+                            <ul>
+                                <li>Años de experiencia profesional en IT</li>
+                                <li>Un camino fácil</li>
+                                <li>Miedo al error</li>
+                                <li>Resistencia al cambio</li>
+                                <li>Excusas frente a los problemas</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="backend-proyects-section">
+
+            <h3>Proyectos Backend</h3>
+
+            <div class="row g-5">
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/Nexflow-api-image.png" class="card-img-top" alt="Nexflow API image">
+                        <div class="card-body">
+                            <h5 class="card-title">Nexflow API</h5>
+                            <p class="card-text">API para la gestión automatizada de planes financieros recurrentes y la
+                                administración de monederos, con seguridad basada en JWT, control de acceso basado en
+                                roles
+                                (RBAC), recuperación de datos paginada y auditoría completa mediante el manejo
+                                estructurado
+                                de excepciones.
+                            </p>
+                            <a href="https://github.com/ReturDev/NexFlow-API" target="_blank"
+                                class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/Gym-Exercise-api-image.png" class="card-img-top"
+                            alt="Gym Exercises API image">
+                        <div class="card-body">
+                            <h5 class="card-title">Gym Exercises API</h5>
+                            <p class="card-text">API para la gestión de equipos y ejercicios, con autenticación de
+                                usuarios,
+                                operaciones CRUD, paginación y un sólido manejo de errores, con documentación OpenAPI
+                                detallada..</p>
+                            <a href="https://github.com/ReturDev/Gym-Exercises-API" target="_blank"
+                                class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <section id="android-proyects-section">
+
+            <h3>Proyectos Android</h3>
+
+            <div class="row g-5">
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/Nexflow-image.png" class="card-img-top" alt="Nexflow kmp image">
+                        <div class="card-body">
+                            <h5 class="card-title">Nexflow KMP(En desarrollo)</h5>
+                            <p class="card-text"><strong>Implementa Nexflow API.</strong><br>Es una aplicación de
+                                gestión financiera
+                                personal centrada en el control
+                                del flujo de caja (Cashflow) y la visibilidad de compromisos económicos. Pone el foco en
+                                el estado de las transacciones
+                                y en la automatización de gastos recurrentes, permitiendo al
+                                usuario tener una imagen fiel de su patrimonio real y sus deudas activas.
+                            </p>
+                            <a href="https://github.com/ReturDev/NexFlow" target="_blank" class="stretched-link"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/Multipickers-image.png" class="card-img-top" alt="Multipicker image">
+                        <div class="card-body">
+                            <h5 class="card-title">Multipicker</h5>
+                            <p class="card-text">Multipicker es una biblioteca que implementa componentes en Compose,
+                                ofreciendo una selección de datos sencilla y personalizable en aplicaciones Android.
+                                Incluye
+                                selectores para números, texto y más..</p>
+                            <a href="https://github.com/ReturDev/MultiPickers" target="_blank"
+                                class="stretched-link"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/StepWise-image.png" class="card-img-top" alt="StepWise image">
+                        <div class="card-body">
+                            <h5 class="card-title">StepWise</h5>
+                            <p class="card-text">StepWise es una aplicación de seguimiento de actividad física que
+                                cuenta
+                                automáticamente los pasos, calcula las calorías, registra la distancia y el tiempo de
+                                caminata. Permite establecer objetivos diarios de pasos personalizados y proporciona
+                                informes intuitivos con gráficos de progreso detallados.</p>
+                            <a href="https://play.google.com/store/apps/details?id=com.returdev.stepwise"
+                                target="_blank" class="stretched-link"></a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="proyect-container">
+                    <div class="proyect-card">
+                        <img src="./media/images/AMVault-image.png" class="card-img-top" alt="A&MVault image">
+                        <div class="card-body">
+                            <h5 class="card-title">A&MVault</h5>
+                            <p class="card-text">
+                                La aplicación A&MVault es una herramienta práctica para los aficionados
+                                al manga y al anime que desean llevar un registro de sus series favoritas. Con esta
+                                aplicación, los usuarios pueden marcar los títulos de manga y anime como "siguiendo",
+                                "completados", "en espera" y más, lo que les permite organizar su progreso de lectura y
+                                visualización.
+                            </p>
+                            <a href="https://github.com/ReturDev/AnimeMangaVault" target="_blank"
+                                class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="experience-section">
+            <h3>Experiencia</h3>
+            <div class="experiences-container">
+                <div class="experience">
+                    <h5 class="experience-title">Desarrollador Android</h5>
+                    <div class="experience-subtitle-container">
+                        <span class="experience-enterprise-name">Eciglogística</span>
+                        <span class="experience-date">Marzo 2025 — Agosto 2025</span>
+                    </div>
+                    <div class="row">
+                        <div class="col 12">
+                            <ul>
+                                <li>Implementé el consumo de APIs RESTful con Retrofit, gestionando la seguridad por
+                                    tokens y el manejo centralizado de excepciones de red.</li>
+                                <li>Optimicé el acceso a la información y el rendimiento de la aplicación mediante el
+                                    diseño de una capa de caché local con Room.</li>
+                                <li>Gestioné la persistencia de datos y la sincronización automática para asegurar el
+                                    funcionamiento óptimo de la app en modo offline.</li>
+                                <li>Estructuré el sistema bajo Clean Architecture y principios SOLID para garantizar un
+                                    código modular, testeable y escalable.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <h5 class="experience-title">Desarrollador Android</h5>
+                    <div class="experience-subtitle-container">
+                        <span class="experience-enterprise-name">Inercia Digital</span>
+                        <span class="experience-date">Marzo 2023 - Junio 2023</span>
+                    </div>
+                    <div class="row">
+                        <div class="col 12">
+                            <ul>
+                                <li>Integré Firebase Authentication para gestionar flujos de seguridad y sesiones de
+                                    usuario de forma eficiente.</li>
+                                <li>Modelé y gestioné la persistencia de datos en bases de datos NoSQL utilizando
+                                    Firestore para el almacenamiento de información.</li>
+                                <li>Configuré la actualización de información en tiempo real y el manejo de persistencia
+                                    nativa fuera de línea para mejorar la experiencia de usuario.</li>
+                                <li>Desarrollé flujos de navegación complejos aplicando inyección de dependencias para
+                                    facilitar el mantenimiento y la testabilidad del sistema.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section id="education-section">
+            <h3>Formación</h3>
+            <div class="education-item">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h5 class="education-title">Grado Superior en Desarrollo de Aplicaciones Multiplataforma
+                            (DAM)</h5>
+                        <p class="education-institution">I.E.S. Padre José Miravent</p>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <span class="education-date">2021 — 2023</span>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h5 class="education-title">Firebase para Android con Kotlin</h5>
+                        <p class="education-institution">Appcademy (Aristidevs)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h5 class="education-title">Jetpack Compose</h5>
+                        <p class="education-institution">Appcademy (Aristidevs)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <h5 class="education-title">Kotlin Multiplatform & Compose Multiplatform</h5>
+                        <p class="education-institution">Appcademy (Aristidevs)</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-wrapper">
+
+                <div class="footer-brand">
+                    <span class="fw-bold text-uppercase">¿Hablamos?</span>
+                </div>
+
+                <div class="footer-contact">
+                    <a class="contact-link" href="mailto:sergiomm50@gmail.com">sergiomm50@gmail.com</a>
+                    <span class="separator">|</span>
+                    <span class="phone">722 33 08 82</span>
+                </div>
+
+                <div class="footer-social">
+                    <a href="http://www.linkedin.com/in/sergio-mateo-moreno" target="_blank" rel="noopener noreferrer">
+                        <img src="./media/icons/linkedin-icon.svg" alt="Linkedin">
+                    </a>
+                    <a href="https://github.com/ReturDev" target="_blank" rel="noopener noreferrer">
+                        <img src="./media/icons/github-icon.svg" alt="Github">
+                    </a>
+                    <a href="https://play.google.com/store/apps/developer?id=Retur" target="_blank"
+                        rel="noopener noreferrer">
+                        <img src="./media/icons/google-play-store-icon.svg" alt="Play Store">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

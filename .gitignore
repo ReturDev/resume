@@ -1,0 +1,14 @@
+# Dependencias de Node
+node_modules/
+package-lock.json
+package.json
+
+# Configuración del editor (VS Code)
+.vscode/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*

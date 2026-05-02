@@ -1,0 +1,29 @@
+
+.education-item {
+@extend .mt-3;
+    border-bottom: 1px solid rgba($white, 0.1);
+
+    .education-title {
+        @extend .fw-bold;
+        @extend .mb-1;
+        font-size: 1.15rem;
+        color: $primary-color;
+    }
+
+    .education-institution {
+        font-size: 1rem;
+    }
+
+    .education-date {
+        @extend .badge;
+        @extend .rounded-pill;
+        @extend .fw-semibold;
+        background-color: transparent;
+        border: 1px solid rgba($on-surface-color, 0.4);
+        color: $on-surface-muted-color;
+        padding: 0.5em 1em;
+    }
+
+
+}
+

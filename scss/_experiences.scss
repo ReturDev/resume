@@ -1,0 +1,63 @@
+.experiences-container {
+    @extend .ps-4;
+    @extend .ms-2;
+    border-left: 2px solid rgba($primary-color, 0.3);
+    position: relative;
+}
+
+.experience {
+    position: relative;
+    @extend .mb-5;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: -32px;
+        top: 5px;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: $primary-color;
+        border: 3px solid $surface-color;
+    }
+
+}
+
+.experience-title {
+    @extend .fw-bold;
+    @extend .mb-1;
+}
+
+.experience-subtitle-container {
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .flex-wrap;
+    gap: 10px;
+}
+
+.experience-enterprise-name {
+    @extend .fw-semibold;
+    @extend .ms-2;
+    @extend .me-2;
+    color: rgba($on-surface-color, 0.8);
+}
+
+.experience-date {
+    @extend .badge;
+    @extend .rounded-pill;
+    color: $primary-color;
+    background-color: rgba($primary-color, 0.05);
+    border: 1px solid rgba($primary-color, 0.5);
+    padding: 0.5em 1em;
+}
+
+.experience ul {
+    @extend .mt-2;
+    color: $on-surface-muted-color;
+    li {
+        @extend .mb-2;
+        &::marker {
+            color: $primary-color; // Los puntos de la lista serán de tu color principal
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.navbar-container {
+    @extend .navbar;
+    @extend .navbar-expand-lg;
+    @extend .navbar-dark;
+    @extend .fixed-top;
+    background: $surface-color;
+    border-bottom: 1px solid #212123;
+}
+
+.navbar-links-container {
+    @extend .collapse;
+    @extend .navbar-collapse;
+}

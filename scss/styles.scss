@@ -1,0 +1,44 @@
+@import "variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@import "info";
+@import "proyects";
+@import "navbar";
+@import "experiences";
+@import "education";
+@import "footer";
+
+
+section {
+    @extend .mt-4;
+    @extend .mt-md-5;
+
+}
+
+body {
+    @extend .pt-5;
+    background-color: $surface-color;
+    color: $on-surface-color;
+}
+
+h3 {
+    @extend .mb-5;
+    @extend .mt-3;
+    @extend .ps-2;
+    @extend .fw-bold;
+    border-left: 4px solid white;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+    
+    &.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
